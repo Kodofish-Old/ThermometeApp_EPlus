@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:maxLines="35"
+        android:scrollbars="vertical" />
+
+        <Button
+            android:id="@+id/btn_mmode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="17dp"
+            android:layout_marginRight="14dp"
+            android:layout_toLeftOf="@+id/section_label"
+            android:text="@string/btn_mmode" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btn_mmode"
+            android:layout_alignBottom="@+id/btn_mmode"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="34dp"
+            android:text="@string/btn_clear" />
+    
+</RelativeLayout><!-- From: file:/Users/KodofishChang/StudioProjects/ThermometeApp_EPlus/app/src/main/res/layout/view_engineer_mode.xml -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c1c1c"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="horizontal"
+    android:paddingLeft="5dip" >
+    
+	<ImageView
+	    android:contentDescription="@string/Industrial_Title_Bar_Content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/i_title"
+		android:id="@+id/imgLogo"
+		android:layout_width="wrap_content"
+		android:layout_centerVertical="true"
+	></ImageView>
+</RelativeLayout>
